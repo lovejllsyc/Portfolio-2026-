@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', Poppins, sans-serif;
+    background-color: #1a1a1a;
+    background-image: linear-gradient(rgba(26, 26, 26, 0.7), rgba(26, 26, 26, 0.7)), url('sep09.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: whitesmoke;
+    line-height: 1.6;
+    padding: 0 5%;
+}
+h1 {
+    font-size: 2rem;
+    margin: 2rem 0;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-direction: row-reverse;
+    color:whitesmoke;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid black;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 15px;
+}
+
+.header a {
+    color: #d4bb94;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    background-color: #303232;
+    font-size: larger;
+}
+
+.header a:hover {
+    background-color: #444;
+}
+
+.video {
+    background-color: #303232;
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.video h2 {
+    color: #d4bb94;
+    margin-bottom: 1rem;
+}
+
+.video iframe {
+    margin: 1rem;
+    display: inline-block;
+}
+
+.skills,
+.apps {
+    background-color: #303232;
+    padding: 1.5rem;
+    border-radius: 10px;
+     margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.skills h3,
+.apps h3 {
+    color: #d4bb94;
+    margin-bottom: 1rem;
+}
+
+.skills img,
+.apps img {
+    margin: 0.5rem;
+    width: 80px;
+    height: 80px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.skills img:hover,
+.apps img:hover {
+    transform: scale(1.2);
+}
+
+h3 {
+    color: #d4bb94;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+
+p {
+    margin-top: 0.5rem;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+pre{
+     margin-top: 0.5rem;
+    font-size: 20px;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #d4bb94;
+}
+footer {
+    text-align: center;
+    padding: 1.5rem 0;
+    margin-top: 2rem;
+    border-top: 1px solid #444;
+    color: gray;
+    font-size: 0.9rem;
+}
